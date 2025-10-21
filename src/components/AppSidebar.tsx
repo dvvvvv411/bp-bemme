@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import bpLogo from "@/assets/bp-logo.svg";
-import engelLogo from "@/assets/engel-logo.png";
+import bemmeLogo from "@/assets/bemme-logo.png";
 import raffinierieIcon from "@/assets/raffinierie-outline-icon.avif";
 import peopleCareIcon from "@/assets/people-care.avif";
 import briefumschlagIcon from "@/assets/bp-icon-briefumschlag.avif";
@@ -77,9 +77,9 @@ export function AppSidebar() {
         </SidebarGroup>
       </SidebarContent>
 
-      {/* Engel Logo über dem Footer */}
+      {/* Bemme Logo über dem Footer */}
       <div className="px-6 py-4 flex justify-center">
-        <img src={engelLogo} alt="Engel" className="h-10" />
+        <img src={bemmeLogo} alt="Bemme" className="h-10" />
       </div>
 
       <SidebarFooter className="border-t border-sidebar-border py-3 shrink-0 mt-auto">

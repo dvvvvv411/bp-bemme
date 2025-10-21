@@ -2,7 +2,7 @@ import { Menu } from "lucide-react";
 import { useSidebar } from "@/components/ui/sidebar";
 import { useIsMobile } from "@/hooks/use-mobile";
 import bpLogo from "@/assets/bp-logo.svg";
-import engelLogo from "@/assets/engel-logo.png";
+import bemmeLogo from "@/assets/bemme-logo.png";
 import { useLocation } from "react-router-dom";
 
 export function MobileHeader() {
@@ -30,7 +30,7 @@ export function MobileHeader() {
         {isHomePage && (
           <div className="flex-1 flex justify-center items-center gap-4">
             <img src={bpLogo} alt="BP Logo" className="h-14" />
-            <img src={engelLogo} alt="Engel" className="h-10" />
+            <img src={bemmeLogo} alt="Bemme" className="h-10" />
           </div>
         )}
 

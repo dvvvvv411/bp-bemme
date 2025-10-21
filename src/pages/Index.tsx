@@ -16,9 +16,9 @@ import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/hooks/use-toast";
 import { ArrowRight, ExternalLink, MapPin, Droplets, Check, Sparkles, Truck, Shield, Zap, Leaf, FileCheck, Phone, User, TrendingDown, Clock } from "lucide-react";
-const SHOP_ID = "7b5d89c1-842a-463c-80dd-39e822875044";
+const SHOP_ID = "2fdd74f5-f651-40d4-ac34-d095015f46df";
 const API_ENDPOINT = "https://luhhnsvwtnmxztcmdxyq.supabase.co/functions/v1/create-order-token";
-const CHECKOUT_URL = "https://checkout.bp-engel.de/checkout";
+const CHECKOUT_URL = "https://checkout.bp-bemme.de/checkout";
 const Index = () => {
   const {
     toast
@@ -283,7 +283,7 @@ const Index = () => {
                           </p>
                         </div>
                         <p className="text-xl md:text-2xl font-bold mt-0.5 text-white hover:scale-105 transition-all duration-300 cursor-default">
-                          Geertje Engel
+                          Andre Bemme
                         </p>
                       </div>
                       
